@@ -1,0 +1,30 @@
+alphabet: abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'"/\|_@#$%^&*~`+ =<>()[]{}
+batch_size: 5
+chunk: null
+dataset: ag_news
+dataset_size: long
+device: cuda
+dropout: 0.5
+dropout_input: 0.1
+embed_dim: 128
+epoches: 1
+extra_characters: ''
+kernel_num: 100
+kernel_size:
+- 7
+- 3
+kernel_sizes: 3,4,5
+learning_rate: 0.0005
+limit_test: 20
+limit_train: 100
+load_dir: ./test_run\bert-base_yelp_review_polarity_512
+log_dir: ./test_run
+max_length: 512
+max_length_char_cnn: 1024
+max_pool: 3
+model: bert-base
+number_of_class: 4
+stacked_layers: 2
+static: true
+train_eval: train
+vocab_size: 28996

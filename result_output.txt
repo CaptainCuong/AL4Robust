@@ -1,0 +1,95 @@
+==============================================================================
+Dep. Variable:                    ASR   R-squared:                       0.852
+Model:                            OLS   Adj. R-squared:                  0.845
+Method:                 Least Squares   F-statistic:                     111.5
+Date:                Mon, 08 May 2023   Prob (F-statistic):           3.21e-96
+Time:                        23:25:21   Log-Likelihood:                 330.76
+No. Observations:                 265   AIC:                            -633.5
+Df Residuals:                     251   BIC:                            -583.4
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                              1.3760      0.074     18.516      0.000       1.230       1.522
+Average number of tokens           0.0045      0.000     15.584      0.000       0.004       0.005
+Number of unique tokens           -0.0001   4.96e-06    -20.262      0.000      -0.000   -9.08e-05
+Minimum number of tokens           0.0170      0.002     11.185      0.000       0.014       0.020
+Maximum number of tokens       -1.852e-05   1.93e-05     -0.959      0.339   -5.66e-05    1.95e-05
+Mean Distance between Clusters    -0.1750      0.040     -4.346      0.000      -0.254      -0.096
+Fisher’s Discriminant Ratio       -0.7162      0.078     -9.159      0.000      -0.870      -0.562
+Calinski-Harabasz Index           -0.0001   1.23e-05     -8.796      0.000      -0.000   -8.39e-05
+Davies-Bouldin Index               0.0185      0.017      1.104      0.271      -0.015       0.052
+Number of cluster                 -0.0017      0.003     -0.664      0.507      -0.007       0.003
+Pearson Median Skewness           -0.0201      0.007     -2.719      0.007      -0.035      -0.006
+Kurtosis                          -0.0230      0.008     -2.862      0.005      -0.039      -0.007
+Misclassification rate            -0.1117      0.043     -2.570      0.011      -0.197      -0.026
+Number of classes                  0.0170      0.003      6.243      0.000       0.012       0.022
+==============================================================================
+Omnibus:                        0.474   Durbin-Watson:                   2.044
+Prob(Omnibus):                  0.789   Jarque-Bera (JB):                0.322
+Skew:                          -0.079   Prob(JB):                        0.851
+Kurtosis:                       3.065   Cond. No.                     1.82e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.82e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+Interpolation test
+Training until validation scores don't improve for 10 rounds
+Early stopping, best iteration is:
+[48]	valid_0's rmse: 0.120656
+RMSE:  0.05782329749778966
+R2:  0.8305791482306504
+MAE:  0.04389262898389044
+Explained_variance_score:  0.8318909686429972
+MAPE:  0.07627087584754434
+--------------------------------------------------
+1
+Avg.
+0.05782329749778966
+0.8305791482306504
+0.04389262898389044
+0.8318909686429972
+0.07627087584754434
+Max
+0.05782329749778966
+0.8305791482306504
+0.04389262898389044
+0.8318909686429972
+0.07627087584754434
+Min
+0.05782329749778966
+0.8305791482306504
+0.04389262898389044
+0.8318909686429972
+0.07627087584754434
+Number of unique tokens :
+0.017138523058362803
+Minimum number of tokens :
+0.011469918402189775
+Maximum number of tokens :
+0.0
+Number of cluster :
+0.11091379951720712
+Number of classes :
+0.2381425847284571
+Average number of tokens :
+0.06392542991831923
+Mean Distance between Clusters :
+0.0432660428701076
+Fisher’s Discriminant Ratio :
+0.029898760342292607
+Calinski-Harabasz Index :
+0.09638923596246235
+Davies-Bouldin Index :
+0.013996827751893925
+Pearson Median Skewness :
+0.0031291469744506584
+Kurtosis :
+0.004071325185941499
+Misclassification rate :
+0.004970475106985042
+Finish

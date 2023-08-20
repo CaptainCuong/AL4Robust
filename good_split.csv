@@ -1,0 +1,9 @@
+﻿Train,,,,,Val,,,,,Test,,,,,,,,r2
+"['yelp_review_polarity', 'ag_news', 'dbpedia', 'yahoo_answers', 'yelp_review_full']",,,,,"['banking77', 'amazon_review_polarity', 'amazon_review_full']",,,,,['tweet_eval_emoji'],,,,,,,,
+"['amazon_review_polarity', 'yelp_review_polarity', 'amazon_review_full', 'yahoo_answers', 'ag_news']",,,,,"['yelp_review_full', 'banking77', 'dbpedia']",,,,,['tweet_eval_emoji'],,,,,,,,
+"['tweet_eval_emoji', 'banking77', 'amazon_review_polarity', 'dbpedia', 'ag_news']",,,,,"['yelp_review_full', 'yahoo_answers']",,,,,"['yelp_review_polarity', 'amazon_review_full']",,,,,,,,
+"['yahoo_answers', 'tweet_eval_emoji', 'banking77', 'yelp_review_polarity', 'dbpedia']",,,,,['yelp_review_full'],,,,,"['amazon_review_full', 'amazon_review_polarity', 'ag_news']",,,,,,,,
+"['yahoo_answers', 'amazon_review_full', 'amazon_review_polarity', 'ag_news', 'dbpedia']",,,,,['banking77'],,,,,"['yelp_review_full', 'tweet_eval_emoji', 'yelp_review_polarity']",,,,,,,,
+"['amazon_review_polarity', 'amazon_review_full', 'banking77', 'ag_news']",,,,,['dbpedia'],,,,,"['yelp_review_polarity', 'yahoo_answers', 'yelp_review_full', 'tweet_eval_emoji']",,,,,,,,
+,,,,,,,,,,,,,,,,,,
+"['dbpedia', 'tweet_eval_emoji', 'amazon_review_full', 'yahoo_answers']",,,,,['amazon_review_polarity'],,,,,"['ag_news', 'banking77', 'yelp_review_polarity', 'yelp_review_full']",,,,,,,,0.4051
